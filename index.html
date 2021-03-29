@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Boxes</title>
+    <style>
+
+        * {
+            background-color: black;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: black;
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+        .base-box {
+            width: 50%;
+            height: 50%;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            /* transform: ; */
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .circle {
+            height: 100%;
+            width: 100%;
+            background-color: black;
+
+            /* border-radius: 50%; */
+        }
+
+        .inner-box {
+            margin: 0 auto;
+            width: calc(100% / 1.414213562 );
+            height: calc(100% / 1.414213562 );
+            transform: rotate(45deg);
+            background-color: black;
+
+        }
+
+        .shadow {
+            -webkit-box-shadow: 0px 0px 23px 9px rgba(255,255,255,0.08);
+-moz-box-shadow: 0px 0px 23px 9px rgba(255,255,255,0.08);
+box-shadow: 0px 0px 23px 9px rgba(255,255,255,0.08);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="base-box shadow flex-container">
+        <div class="circle shadow flex-container">
+            <div class="inner-box shadow flex-container">
+                <div class="circle shadow flex-container">
+                    <div class="inner-box shadow flex-container">
+                        <div class="circle shadow flex-container">
+                            <div class="inner-box shadow flex-container">
+                                <div class="circle shadow flex-container">
+                                    <div class="inner-box shadow flex-container">
+                                        <div class="circle shadow flex-container">
+                                            <div class="inner-box shadow flex-container">
+                                                <div class="circle shadow flex-container">
+                                                    <div class="inner-box shadow flex-container">
+                                                        <div class="circle shadow flex-container">
+                                                            <div class="inner-box shadow flex-container">
+                                                                <div class="circle shadow flex-container">
+                                                                    <div class="inner-box shadow flex-container">
+                                                                        <div class="circle shadow flex-container">
+                                                                            <div class="inner-box shadow flex-container">
+                                                                                <div class="circle shadow flex-container">
+                                                                                    <div class="inner-box shadow flex-container">
+                                                                                        <div class="circle shadow flex-container">
+                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                <div class="circle shadow flex-container">
+                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                        <div class="circle shadow flex-container">
+                                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                                <div class="circle shadow flex-container">
+                                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                                        <div class="circle shadow flex-container">
+                                                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                                                <div class="circle shadow flex-container">
+                                                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                                                        <div class="circle shadow flex-container">
+                                                                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                                                                <div class="circle shadow flex-container">
+                                                                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                                                                        <div class="circle shadow flex-container">
+                                                                                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                                                                                <div class="circle shadow flex-container">
+                                                                                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                                                                                        <div class="circle shadow flex-container">
+                                                                                                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                                                                                                <div class="circle shadow flex-container">
+                                                                                                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                                                                                                        <div class="circle shadow flex-container">
+                                                                                                                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                                                                                                                <div class="circle shadow flex-container">
+                                                                                                                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                                                                                                                        <div class="circle shadow flex-container">
+                                                                                                                                                                                                            <div class="inner-box shadow flex-container">
+                                                                                                                                                                                                                <div class="circle shadow flex-container">
+                                                                                                                                                                                                                    <div class="inner-box shadow flex-container">
+                                                                                                                                                                                                                        
+                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                </div>
+                                                                                                                                                                                                            </div>
+                                                                                                                                                                                                        </div>
+                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                            </div>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                        </div>
+                                                                                                                                                                    </div>
+                                                                                                                                                                </div>
+                                                                                                                                                            </div>
+                                                                                                                                                        </div>
+                                                                                                                                                    </div>
+                                                                                                                                                </div>
+                                                                                                                                            </div>
+                                                                                                                                        </div>
+                                                                                                                                    </div>
+                                                                                                                                </div>
+                                                                                                                            </div>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
